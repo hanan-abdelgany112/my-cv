@@ -1,0 +1,104 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ccccff;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+   }
+   header {
+    background-color: #b17d0c;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1em;
+   }
+   b {
+     font-size: 18px;
+   }
+   * {
+     box-sizing: border-box;
+   }
+   .row {  
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .left-column {
+     flex: 33%;
+     background-color: #fff5ef;
+     padding: 20px;
+   }
+   .right-column {
+     flex: 66%;
+     background-color: #fff5ef;
+     padding: 20px;
+   }
+
+
+   @media screen and (max-width: 900px) {
+     .row {   
+       flex-direction: column;
+     }
+   }
+
+
+   .profile-image {
+     background-image: url("7ena1.jpeg");
+     height: 350px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     padding-top: 0.5em;
+   }
+  
+   .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 2em;
+   }
+   .info-panel, .exper-panel, .edu-panel {
+     font-size: 16px;
+     color: #666666;
+     padding: 0.5em 1.5em;    
+   }
+   .skills-bar, .language-bar {
+     width: 100%;
+     background-color: #e6e6ff;
+     border-radius: 1em;
+   }
+   .skills, .language {
+     font-size: 12px;
+     text-align: center;  
+     color: white;
+   }
+   .html {width: 100%; background-color: #b17d0c; border-radius: 1em;}
+   .css {width: 100%; background-color: #b17d0c; border-radius: 1em;}
+   .js {width: 90%; background-color: #b17d0c; border-radius: 1em;}
+   .react {width: 80%; background-color: #b17d0c; border-radius: 1em;}
+   .bootstrap {width: 90%; background-color: #b17d0c; border-radius: 1em;}
+ 
+   .english {width: 85%; background-color: #b17d0c; border-radius: 1em;}
+   .french {width: 75%; background-color: #b17d0c; border-radius: 1em;}
+  
+   mark {
+   padding: 5px;
+   background-color: #b17d0c;
+   color:white;
+   border-radius: 0.2em;
+   }
+   footer {
+     text-align: center;
+     text-decoration: none;
+     background-color:#b17d0c;
+     color: black;
+     padding: 1em;
+   }
+   .social-links {
+     color: #ffffff;  
+   }
+   .social-links :hover {
+     color: white;   
+   }
+   a {
+     color: black;
+     text-decoration: none;
+   }
